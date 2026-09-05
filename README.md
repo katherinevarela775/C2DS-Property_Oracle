@@ -1,6 +1,6 @@
 # Property Oracle — California Housing & Bank Churn
 
-Proyecto de Machine Learning supervisado sobre dos dominios distintos: predicción de precios de vivienda en California y predicción de abandono de clientes (churn) en un banco europeo. El proyecto vive en una sola notebook autocontenida que sigue el "Ritual de los 7 pasos": EDA → feature engineering → selección de features → división train/test sin fuga → preprocesamiento en pipelines → entrenamiento → evaluación sobre test, con interpretación humana y conclusiones honestas.
+Proyecto de Machine Learning supervisado sobre dos dominios distintos: predicción de precios de vivienda en California y predicción de abandono de clientes (churn) en un banco europeo. El proyecto vive en un solo notebook autocontenido que sigue el "Ritual de los 7 pasos": EDA → feature engineering → selección de features → división train/test sin fuga → preprocesamiento en pipelines → entrenamiento → evaluación sobre test, con interpretación humana y conclusiones honestas.
 
 El desafío plantea dos preguntas centrales: *¿cuánto vale una vivienda dado su contexto?* y *¿qué clientes están en riesgo real de abandonar el banco?* Para cada una entrenamos un modelo supervisado básico — regresión lineal y regresión logística — y lo evaluamos con las métricas correctas para su dominio, verificando además que generalice (train vs test) y que no memorice.
 
